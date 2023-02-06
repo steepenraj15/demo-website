@@ -2,9 +2,21 @@
 <html>
     <head>
         <title>Welcome to my Website</title>
-        <body>
+
+        <!--meta data is that data contains data-->
+        <meta charset="UTF-8">
+        <meta name="author" content="Steepen Raj D">
+        <meta name="description" content="Free HTML content notes and tutorial for beginners">
+        <meta name="keywords" content="HTML, Tutorial, Beginners">
+
+        <!-- screeen size auto adjustable -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--color to web page or specific content "style tag we use here"-->
+        <body style="background-color:darksalmon">
 
             <!-- heading tag-->
+            <h3>Heading tag</h3>
             <h1>This is my Website</h1>
             <br> <!-- this br tag used for separating the segment-->
             <h2>Nice to be with you</h2>
@@ -12,11 +24,13 @@
             <h4>Nice to be with you</h4>
 
             <!-- paragraph tag-->
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum labore enim quisquam quis eligendi, quam a ipsum autem consequuntur, hic aspernatur aperiam voluptatem, provident esse asperiores cupiditate omnis sint!</p>
+            <h3>Paragraph tag</h3>
+            <p style="background-color: gray; color:navy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum labore enim quisquam quis eligendi, quam a ipsum autem consequuntur, hic aspernatur aperiam voluptatem, provident esse asperiores cupiditate omnis sint!</p>
 
             <!--hyperlink tag-->
+            <h3>Hyperlink tag</h3>
             <a href="page2.html" target="_blank" title="This takes you to page 2">
-                page 2 for HTML video lecture <!--target="_blank" will open the link in new page -->
+                Page 2 for HTML video lecture <!--target="_blank" will open the link in new page -->
             </a>
             <br>
             <a href="mail:fakeid1234@gmail.com" target="_blank" title="this is a fake mail id">
@@ -25,12 +39,14 @@
 
             <!--image tag-->
             <br>
+            <h3>Image tag with Hyperlink</h3>
             <a href="https://en.wikipedia.org/wiki/Image">
             <img src="images/Penguins.jpg" height="220" alt="This is image of webpage" title="image related to website">
             </a>
             <br>
 
             <!--audio tag-->
+            <h3>Audio tag</h3>
             <audio controls >
                 <!--autoplay muted loop-->
                 <source src="music/let_me_love_you.mp3">
@@ -40,6 +56,7 @@
             <br>
 
             <!--video tag-->
+            <h3>Video tag</h3>
             <video controls width="220">
                 <!-- MP4, WebM and Ogg  supported file format-->
                 <source src="video/video1.mp4">
@@ -49,6 +66,7 @@
             <br>
 
             <!--text formatting-->
+            <h3>Text formatting</h3>
             <p>This is normal text</p>
             <p>This is <b>bold</b> text</p>
             <p>This is <i>italic</i> text</p>
@@ -61,6 +79,7 @@
             <br>
             
             <!--list formatting-->
+            <h3>List formatting</h3>
             <h4>Unorderde list</h4>
             <ul>
                 <li>vegetable</li>
@@ -90,6 +109,62 @@
                 <dt>JavaScript</dt>
                 <dd>This adds functionality to a webpage</dd>
             </dl>
+            
+            <!--table tag-->
+            <h3>Table tag</h3>
+            <br>
+            <h3>College Timing</h3>
+            <table bgcolor="black" width="700">
+                <tr bgcolor="pink">
+                    <!--table header tag-->
+                    <th width="100">Sunday</th>
+                    <th width="100">Monday</th>
+                    <th width="100">Tuesday</th>
+                    <th width="100">Wednesday</th>
+                    <th width="100">Thursday</th>
+                    <th width="100">Friday</th>
+                    <th width="100">Saturday</th>
+                </tr>
+                <tr bgcolor="violet" align="center">
+                    <td>Holiday</td>
+                    <td>9-4</td>
+                    <td>9-4</td>
+                    <td>9-4</td>
+                    <td>9-4</td>
+                    <td>9-4</td>
+                    <td>Holiday</td>
+                </tr>
+            </table>
+
+                <!--span tag add markup to text or portion of a document-->
+                <h3>Span tag</h3>
+                <p>
+                    <span style="background-color:orange; color:aliceblue"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span> Distinctio earum labore enim quisquam quis eligendi, quam a ipsum autem consequuntur, hic aspernatur aperiam voluptatem, provident esse asperiores cupiditate omnis sint!
+                </p>
+
+                <!--div defines a division of a document-->
+                <h3>Div tag</h3>
+                <div style="background-color:rgba(0, 255, 85, 0.267) ;">
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum labore enim quisquam quis eligendi, quam a ipsum autem consequuntur, hic aspernatur aperiam voluptatem, provident esse asperiores cupiditate omnis sint!</p>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum labore enim quisquam quis eligendi, quam a ipsum autem consequuntur, hic aspernatur aperiam voluptatem, provident esse asperiores cupiditate omnis sint!</p>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum labore enim quisquam quis eligendi, quam a ipsum autem consequuntur, hic aspernatur aperiam voluptatem, provident esse asperiores cupiditate omnis sint!</p>
+                </div>
+
+                <!--iframe embed content another source into html document or used for ads and also in hacking techniques-->
+                <iframe src="https://www.bing.com" width="1300" height="600"></iframe>
+
+                <!--button tag-->
+                <h3>Button tag</h3>
+                <a href="https://www.google.com" target="_blank" title="This will takes you to Google home page>
+                    <button style="background-color:#3333; color: rgb(92, 236, 26); border-radius: 5px;">click here</button>
+                </a>
+                <br>
+
+                <!--form filling-->
+                <h3>Form filling</h3>
+                <a href="page3.html" target="_blank" title="This takes you to page 3">
+                    Form filling page 
+                </a>
         </body>
     </head>
 </html>
